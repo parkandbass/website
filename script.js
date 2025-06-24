@@ -118,7 +118,7 @@ if (newsletterForm) {
 const eventButtons = document.querySelectorAll('.event-button');
 eventButtons.forEach(button => {
     button.addEventListener('click', () => {
-        showNotification('Event-Details werden bald verfügbar sein!', 'info');
+        showNotification('Event-Details werden auf Instagram gepostet!', 'info');
     });
 });
 
